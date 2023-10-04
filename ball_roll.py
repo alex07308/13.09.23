@@ -7,7 +7,7 @@ def degree(a: float, t: float, r: float, V: float) -> float:
         a (float): acceleration
         t (float): time
         r (float): radius
-        V (float): initial_velocity
+        V (float): speed
 
     Returns:
         float: the angular displacement
@@ -18,9 +18,9 @@ def degree(a: float, t: float, r: float, V: float) -> float:
     degrees = math.degrees(radians)
     return degrees
 
-a = 5
-t = 7
+a = 10
+t = 100
 r = 2
-V = 9
+V = 1000
 result = degree(a, t, r, V)
 print(result)
